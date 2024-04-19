@@ -37,7 +37,7 @@ buttons.forEach(button => {
         display.value = Math.sqrt(display.value);
         break;
       default:
-        if (e.target.innerText === '.' && display.value.includes('.')) {
+        if (e.target.innerText === "." && display.value.includes(".")) {
                 return;
         }
         if (display.value.length < 10) {
