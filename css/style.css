@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  height: 100%;
+}
 body {
   background: #3762cc;
   background: -webkit-linear-gradient(110deg, #3762cc 0%, #bb3ef0 50%, #bbd3fd 100%);
